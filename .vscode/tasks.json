@@ -1,0 +1,38 @@
+{
+    "version": "2.0.0",
+
+    "tasks": [
+        {
+            "identifier": "cpp-build",
+            "taskName": "Build C++ Files",
+            
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+
+            "type": "shell",
+
+            "linux": {
+                "command": "./scripts/build-cli.sh"
+            }
+        },
+        {
+            "dependsOn": "cpp-build",            
+
+            "identifier": "run-cli",
+            "taskName": "Build and Run CLI",
+
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+
+            "type": "shell",
+
+            "linux": {
+                "command": "./scripts/run-cli.sh"
+            }
+        }
+    ]
+}

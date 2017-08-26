@@ -1,0 +1,11 @@
+{
+    "editor.minimap.enabled": false,
+    "files.insertFinalNewline": true,
+
+    "C_Cpp.intelliSenseEngine": "Default",
+
+    "files.exclude": {
+        ".git/": true,
+        "build/": true
+    }
+}
