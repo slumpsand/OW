@@ -1,8 +1,11 @@
 #include <iostream>
 
+#include "../include/menus.hpp"
+
 using namespace std;
 
 int main(int argc, char** argv)
 {
-    cout << "Overwatch Command Line Interface" << endl;
+    while(main_menu())
+        ;
 }
