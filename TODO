@@ -1,1 +1,2 @@
-don't allow usage of string without #include
+- don't allow usage of string without #include
+- add recommended extensions
