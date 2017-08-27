@@ -11,7 +11,7 @@
 
             "type": "shell",            
             "linux": {
-                "command": "./scripts/build-cli.sh"
+                "command": "./scripts/build.sh"
             },
 
             "problemMatcher": [ "$gcc" ]
