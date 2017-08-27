@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include "../include/menus.hpp"
-#include "../include/menu-helper.hpp"
+#include <ow/menus.hpp>
+#include <ow/menu-helper.hpp>
 
 using namespace std;
 

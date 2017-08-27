@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "../include/menus.hpp"
+#include <ow/menus.hpp>
 
 using namespace std;
 
